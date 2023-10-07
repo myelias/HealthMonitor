@@ -1,0 +1,2 @@
+namespace FitbitHeartRateDataService.Data;
+

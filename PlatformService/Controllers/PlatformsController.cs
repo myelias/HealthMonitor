@@ -19,17 +19,13 @@ namespace PlatformService.Controllers
 
         // This is the standard dependency injection pattern you see: Constructor for a class that will pass in
         // a number of parameters that will assign them to private read only fields which we will use in that class
-        public PlatformsController(
-        IPlatformRepo repository, 
-        IMapper mapper, 
-        ICommandDataClient commandDataClient) //These 2 parameters are being injected into this constructor
+        public PlatformsController(IPlatformRepo repository, IMapper mapper, ICommandDataClient commandDataClient) //These 2 parameters are being injected into this constructor
         {   
             _repository = repository;
             _mapper = mapper;
             _commandDataClient = commandDataClient;
             
         }
-
         [HttpGet] // When you call this action through the above route, we are going to return an enumeration
         // of our PlatformReadDto
         public ActionResult<IEnumerable<PlatformReadDto>> GetPlatforms()

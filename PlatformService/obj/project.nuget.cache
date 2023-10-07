@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tjlgsYB9itpzjMGC4nKz9upb8CXE7oXKuMY9RZstOH+ROYwx814/slSd/w/SpB9G869Y5b4dTiPAuib9iX2mcw==",
+  "dgSpecHash": "XrdwHT5ilO7d0qkJCr1VlKIcNopgXnao0uU78ZmVbIKxojc7glVEsDXfU/Hcm4GfNWIw4KlsN+EvNzQk+GX5cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\apiProject\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marti\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Marti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

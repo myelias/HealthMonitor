@@ -48,3 +48,8 @@ C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\refi
 C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\CommandsService.pdb
 C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\CommandsService.genruntimeconfig.cache
 C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\ref\CommandsService.dll
+C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.CommandsService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.build.CommandsService.props
+C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CommandsService.props
+C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CommandsService.props
+C:\Users\Marti\OneDrive\Desktop\apiProject\CommandsService\obj\Debug\net6.0\staticwebassets.pack.json

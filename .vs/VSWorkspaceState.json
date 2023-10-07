@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PlatformService"
+    "\\CommandsService\\Properties",
+    "\\FitbitHeartRateDataService",
+    "\\FitbitHeartRateDataService\\Entities",
+    "\\PlatformService",
+    "\\PlatformService\\Controllers",
+    "\\PlatformService\\Models",
+    "\\PlatformService\\Profiles"
   ],
-  "SelectedNode": "\\PlatformService\\Properties",
+  "SelectedNode": "\\PlatformService\\Profiles\\PlatformsProfile.cs",
   "PreviewInSolutionExplorer": false
 }
