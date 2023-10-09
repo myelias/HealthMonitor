@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ph4sGIjPo+Uy2w1iOTgHexM0ATh3dRRc0iMtunGTtALy3Qtu3m9gjXZ6Q83pQlukHqAzdTbj982G3KA1PCtKmw==",
+  "dgSpecHash": "9t35qioR0WgldNVUHBJyiQDIEUtN2h335vfEmabR5fQ/UDu68dmHjXnru4nL8a8bz84tT4H3X21uk4hM0DXj2g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
+  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marti\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Marti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
