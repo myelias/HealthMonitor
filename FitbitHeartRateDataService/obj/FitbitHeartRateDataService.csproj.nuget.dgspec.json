@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {}
+    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {
+    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
+        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
         "projectName": "FitbitHeartRateDataService",
-        "projectPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
+        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
         "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\obj\\",
+        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -26,6 +26,9 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
