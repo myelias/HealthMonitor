@@ -28,7 +28,13 @@ namespace FitbitHeartRateDataService.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Date")
+                        .HasColumnType("text");
+
                     b.Property<string>("DateTime")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Period")
                         .HasColumnType("text");
 
                     b.Property<int>("Value")
