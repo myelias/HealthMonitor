@@ -36,4 +36,20 @@ public class HeartRateController : ControllerBase
         if (HeartRate == null) return NotFound();
         return _mapper.Map<HeartRateDto>(HeartRate);
     }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteHeartRate(Guid id)
+    {
+        var HeartRate = await _context.HeartRates.FindAsync(id);
+
+        if (HeartRate == null) return NotFound();
+
+        _context.HeartRates.Remove(HeartRate);
+
+        var result = await _context.SaveChangesAsync() > 0;
+
+        if (!result) return BadRequest("Could not update DB");
+
+        return Ok();
+    }
 }
