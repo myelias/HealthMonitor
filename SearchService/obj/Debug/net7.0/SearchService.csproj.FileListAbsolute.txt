@@ -41,3 +41,4 @@ C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\obj\D
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\obj\Debug\net7.0\SearchService.pdb
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\obj\Debug\net7.0\SearchService.genruntimeconfig.cache
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\obj\Debug\net7.0\ref\SearchService.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\Data\HeartRateDates.json

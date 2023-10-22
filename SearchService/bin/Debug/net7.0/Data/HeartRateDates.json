@@ -1,0 +1,23 @@
+[
+	{
+		"id": "578740da-acea-4127-919b-075f4198d57f",
+		"date": "Today",
+		"period": "1d",
+		"dateTime": "10/10/2023",
+		"value": 62
+	},
+	{
+		"id": "69250109-1d95-4fc8-a8aa-3f8d336115ca",
+		"date": "Today",
+		"period": "1d",
+		"dateTime": "10/08/2023",
+		"value": 58
+	},
+	{
+		"id": "7c040533-6bfa-491a-92f1-022dda79a992",
+		"date": "Today",
+		"period": "1d",
+		"dateTime": "10/09/2023",
+		"value": 59
+	}
+]
