@@ -13,7 +13,7 @@ public class DbInitializer
             .FromConnectionString(app.Configuration.GetConnectionString("MongoDbConnection")));
 
         await DB.Index<HeartRateDate>()
-            .Key(x => x.Date, KeyType.Text)
+            .Key(x => x.dateTime, KeyType.Text)
             .Key(x => x.Period, KeyType.Text).CreateAsync();
 
         var count = await DB.CountAsync<HeartRateDate>();

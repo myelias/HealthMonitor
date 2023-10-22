@@ -8,15 +8,15 @@ namespace SearchService;
 public class SearchController : ControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<List<HeartRateDate>>> SearchDates(string Date, int pageNumber = 1, int pageSize = 4)
+    public async Task<ActionResult<List<HeartRateDate>>> SearchDates(string dateTime, int pageNumber = 1, int pageSize = 4)
     {
         var query = DB.PagedSearch<HeartRateDate>();
 
-        query.Sort(x => x.Ascending(a => a.Date)); // Sorts HeartRates in order of their dates
+        query.Sort(x => x.Ascending(a => a.dateTime)); // Sorts HeartRates in order of their dates
 
-        if (!string.IsNullOrEmpty(Date))
+        if (!string.IsNullOrEmpty(dateTime))
         {
-            query.Match(Search.Full, Date).SortByTextScore();
+            query.Match(Search.Full, dateTime).SortByTextScore();
         }
 
         query.PageNumber(pageNumber);
