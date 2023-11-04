@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WTKrkuMv+Gj/kaQ1T582OTMXCGypt4YxwCOnosykPV3wGl3k2Oql3L4BpHrqMmPpuITVuqfepivwr+uY/AWAcA==",
+  "dgSpecHash": "aSraMj/C5EAmDIP/+h/ON/+btdQ+j1jeq4PfVsPIg3uQJzlNq+ax5bNZ51f9L5iheY7Ps86MBvkghrK9Z2ED8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\apiProject\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marti\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Marti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
