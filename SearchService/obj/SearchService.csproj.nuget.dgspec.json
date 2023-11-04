@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj": {}
+    "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj": {
+    "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
+        "projectUniqueName": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
         "projectName": "SearchService",
-        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
+        "projectPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
         "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\obj\\",
+        "outputPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -26,9 +26,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
