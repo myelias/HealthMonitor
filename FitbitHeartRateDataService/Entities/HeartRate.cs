@@ -5,11 +5,11 @@ public class HeartRate
 {
     public Guid Id { get; set; }
 
-    public string Date {get; set;}
+    public DateTime Date {get; set;}
 
     public string Period {get; set;}
 
-    public string DateTime { get; set; }
+    // public string DateTime { get; set; }
 
     public int Value { get; set; }
 }

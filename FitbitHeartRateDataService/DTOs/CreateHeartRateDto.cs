@@ -8,7 +8,7 @@ public class CreateHeartRateDto
     public Guid Id { get; set; }
 
     [Required]
-    public string Date {get; set;}
+    public DateTime Date {get; set;}
 
     [Required]
     public string Period {get; set;}

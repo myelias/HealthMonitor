@@ -1,4 +1,5 @@
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using FitbitHeartRateDataService.Data;
 using FitbitHeartRateDataService.DTOs;
 using Microsoft.AspNetCore.Mvc;
@@ -20,11 +21,17 @@ public class HeartRateController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<HeartRateDto>>> GetAllHeartRates()
+    public async Task<ActionResult<List<HeartRateDto>>> GetAllHeartRates(string date)
     {
-        var HeartRates = await _context.HeartRates.ToListAsync();
-        return _mapper.Map<List<HeartRateDto>>(HeartRates);
+        var query = _context.HeartRates.OrderBy(x => x.Date).AsQueryable();
+        if (!string.IsNullOrEmpty(date))
+        {
+            query = query.Where(x => x.Date.CompareTo(DateTime.Parse(date).ToUniversalTime()) > 0);
+        }
 
+        //var HeartRates = await _context.HeartRates.ToListAsync();
+        //return _mapper.Map<List<HeartRateDto>>(HeartRates);
+        return await query.ProjectTo<HeartRateDto>(_mapper.ConfigurationProvider).ToListAsync();
     }
 
     [HttpGet("{id}")]

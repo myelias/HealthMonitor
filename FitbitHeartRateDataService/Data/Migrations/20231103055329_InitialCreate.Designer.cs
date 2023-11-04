@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FitbitHeartRateDataService.Data.Migrations
 {
     [DbContext(typeof(HeartRateDbContext))]
-    [Migration("20231012044203_InitialCreate")]
+    [Migration("20231103055329_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -31,11 +31,8 @@ namespace FitbitHeartRateDataService.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Date")
-                        .HasColumnType("text");
-
-                    b.Property<string>("DateTime")
-                        .HasColumnType("text");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Period")
                         .HasColumnType("text");

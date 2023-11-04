@@ -26,9 +26,9 @@ public class DbInitializer
         {
             var heartRates = new List<HeartRate>()
             {
-                new HeartRate() {Id = Guid.NewGuid(), Date = "Today", Period = "1d", DateTime = "10/08/2023", Value = 58},
-                new HeartRate() {Id = Guid.NewGuid(), Date = "Today", Period = "1d", DateTime = "10/09/2023", Value = 59},
-                new HeartRate() {Id = Guid.NewGuid(), Date = "Today", Period = "1d", DateTime = "10/10/2023", Value = 62}
+                new HeartRate() {Id = Guid.NewGuid(), Date = new DateTime(2023,10,23,1,1,1,DateTimeKind.Utc), Period = "1d", Value = 58},
+                new HeartRate() {Id = Guid.NewGuid(), Date = new DateTime(2023,10,21,1,1,1,DateTimeKind.Utc), Period = "1d", Value = 59},
+                new HeartRate() {Id = Guid.NewGuid(), Date = new DateTime(2023,10,22,1,1,1,DateTimeKind.Utc), Period = "1d", Value = 62}
                 
                 // add HeartRates here 
             };

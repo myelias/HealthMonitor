@@ -1348,11 +1348,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\apiProject\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\apiProject\\CommandsService\\CommandsService.csproj",
+      "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj",
       "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\apiProject\\CommandsService\\obj\\",
+      "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1369,6 +1369,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1429,7 +1430,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
