@@ -767,6 +767,16 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
       }
     }
   },
@@ -2121,11 +2131,17 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Contracts >= 1.0.0",
       "MassTransit.RabbitMQ >= 8.1.1",
       "Microsoft.Extensions.Http.Polly >= 7.0.13",
       "MongoDB.Entities >= 22.1.0"
@@ -2139,11 +2155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
+      "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
       "projectName": "SearchService",
-      "projectPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
+      "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\SearchService.csproj",
       "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\obj\\",
+      "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\SearchService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2158,12 +2174,19 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
