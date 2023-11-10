@@ -55,3 +55,5 @@ C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\D
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\Contracts.dll
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\SearchService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll

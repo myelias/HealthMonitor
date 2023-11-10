@@ -9,5 +9,6 @@ public class MappingProfiles : Profile
     {
         CreateMap<HeartRate, HeartRateDto>();
         CreateMap<CreateHeartRateDto, HeartRate>();
+        CreateMap<HeartRateDto, HeartRateCreated>();
     }
 }

@@ -37,3 +37,13 @@ C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateData
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\obj\Debug\net7.0\FitbitHeartRateDataService.csproj.CopyComplete
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Contracts.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\FitbitHeartRateDataService\bin\Debug\net7.0\Contracts.pdb

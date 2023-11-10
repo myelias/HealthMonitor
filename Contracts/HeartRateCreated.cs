@@ -1,8 +1,8 @@
-namespace FitbitHeartRateDataService.Entities;
-using System.ComponentModel.DataAnnotations.Schema;
-[Table("HeartRates")]
-public class HeartRate
+using Contracts;
+
+public class HeartRateCreated
 {
+    // Request Parameters
     public Guid Id { get; set; }
 
     public DateTime Date {get; set;}
@@ -10,4 +10,5 @@ public class HeartRate
     public string Period {get; set;}
 
     public int Value { get; set; }
+
 }

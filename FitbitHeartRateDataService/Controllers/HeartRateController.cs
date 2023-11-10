@@ -2,6 +2,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using FitbitHeartRateDataService.Data;
 using FitbitHeartRateDataService.DTOs;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,10 +15,13 @@ public class HeartRateController : ControllerBase
     private readonly HeartRateDbContext _context;
     private readonly IMapper _mapper;
 
-    public HeartRateController(HeartRateDbContext context, IMapper mapper) // Dependency injection
+    private readonly IPublishEndpoint _publishEndpoint;
+
+    public HeartRateController(HeartRateDbContext context, IMapper mapper, IPublishEndpoint publishEndpoint) // Dependency injection
     {
         _context = context;
         _mapper = mapper;
+        _publishEndpoint = publishEndpoint;
     }
 
     [HttpGet]

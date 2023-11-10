@@ -11,10 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddHttpClient<HeartRateServiceHttpClient>().AddPolicyHandler(GetPolicy());
 builder.Services.AddMassTransit( x => {
 
+    x.AddConsumersFromNamespaceContaining<HeartRateCreatedConsumer>();
+
+    x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("search", false));
     // A Transport
     x.UsingRabbitMq((context, cfg) =>
     {
