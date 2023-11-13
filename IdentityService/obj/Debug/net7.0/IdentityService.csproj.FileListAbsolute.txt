@@ -68,3 +68,4 @@ C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\IdentityService\obj
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\IdentityService\obj\Debug\net7.0\IdentityService.pdb
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\IdentityService\obj\Debug\net7.0\IdentityService.genruntimeconfig.cache
 C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\IdentityService\obj\Debug\net7.0\ref\IdentityService.dll
+C:\Users\Marti\OneDrive\Desktop\HealthMetricsProject\backend\IdentityService\bin\Debug\net7.0\keys\is-signing-key-E8124922D9A96B218A96CD00B97E24CB.json
