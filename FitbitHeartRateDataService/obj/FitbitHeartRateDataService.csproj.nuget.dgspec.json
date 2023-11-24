@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {}
+    "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -71,30 +71,30 @@
         }
       }
     },
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {
+    "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
+        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
         "projectName": "FitbitHeartRateDataService",
-        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
+        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\FitbitHeartRateDataService\\FitbitHeartRateDataService.csproj",
         "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\FitbitHeartRateDataService\\obj\\",
+        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\FitbitHeartRateDataService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -106,8 +106,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -121,11 +121,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -139,24 +139,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -165,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

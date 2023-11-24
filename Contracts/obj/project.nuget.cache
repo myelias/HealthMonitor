@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GqgbFWtITAYqOy/a5oXAdHsGgo4x5YwkcXV3S5MLCfaZaHxYbpwRF7TarXUiZP1cARFdTtEKeYsSE2QwNYVqeQ==",
+  "dgSpecHash": "E3u4vy8Q6/ENbZrBNXGNr2Ihf44yDN0fc5Ea08aVLUQW8p2TUhWK1PY90Y60smkwSgTL4eYikgoRoJOc/paNhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marti\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\Marti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
