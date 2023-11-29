@@ -2,6 +2,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using FitbitHeartRateDataService.Data;
 using FitbitHeartRateDataService.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -44,12 +45,15 @@ public class HeartRateController : ControllerBase
         return _mapper.Map<HeartRateDto>(HeartRate);
     }
 
+    [Authorize]
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteHeartRate(Guid id)
     {
         var HeartRate = await _context.HeartRates.FindAsync(id);
 
         if (HeartRate == null) return NotFound();
+
+        if (HeartRate.FitBitUser != User.Identity.Name) return Forbid();
 
         _context.HeartRates.Remove(HeartRate);
 
