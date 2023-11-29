@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contracts
-build_property.ProjectDir = c:\Users\Marti\OneDrive\Desktop\newClonedHealthMetrics\HealthMonitor\Contracts\
+build_property.ProjectDir = /Users/martinelias/Desktop/ProjectBackend/HealthMonitor/Contracts/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
