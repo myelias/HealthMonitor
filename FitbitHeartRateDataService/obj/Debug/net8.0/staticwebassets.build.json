@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LxOQq5zT+E/JCelFPCdecntgZm/jUv/bV/BhQT7SRt8=",
+  "Source": "FitbitHeartRateDataService",
+  "BasePath": "_content/FitbitHeartRateDataService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

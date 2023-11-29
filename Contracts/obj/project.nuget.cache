@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "E3u4vy8Q6/ENbZrBNXGNr2Ihf44yDN0fc5Ea08aVLUQW8p2TUhWK1PY90Y60smkwSgTL4eYikgoRoJOc/paNhw==",
+  "dgSpecHash": "1dX9+M86yEU7fssLAuuk7oYaAWV1HmbVKfwHe6P96YCDdVReBAWSK0E7FiYETkxGd8Y6dkfS5VdGCH2hwcDtgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\Contracts\\Contracts.csproj",
+  "projectFilePath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/Contracts/Contracts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Marti\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\Marti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\Marti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+    "/Users/martinelias/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

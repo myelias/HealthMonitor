@@ -2586,19 +2586,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marti\\.nuget\\packages\\": {}
+    "/Users/martinelias/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\IdentityService\\IdentityService.csproj",
+      "projectUniqueName": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/IdentityService/IdentityService.csproj",
       "projectName": "IdentityService",
-      "projectPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\IdentityService\\IdentityService.csproj",
-      "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Marti\\OneDrive\\Desktop\\newClonedHealthMetrics\\HealthMonitor\\IdentityService\\obj\\",
+      "projectPath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/IdentityService/IdentityService.csproj",
+      "packagesPath": "/Users/martinelias/.nuget/packages/",
+      "outputPath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/IdentityService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/martinelias/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2676,7 +2676,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
