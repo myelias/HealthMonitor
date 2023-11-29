@@ -18,6 +18,7 @@ public class CustomProfileService : IProfileService
         _userManager = userManager;
     }
 
+    // Adding name and username claims
     public async Task GetProfileDataAsync(ProfileDataRequestContext context)
     {
         var user = await _userManager.GetUserAsync(context.Subject);
