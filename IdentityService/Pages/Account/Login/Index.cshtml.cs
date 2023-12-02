@@ -46,14 +46,17 @@ public class Index : PageModel
     public async Task<IActionResult> OnGet(string returnUrl)
     {
         await BuildModelAsync(returnUrl);
-            
+        
+
         if (View.IsExternalLoginOnly)
         {
             // we only have one option for logging in and it's an external provider
             return RedirectToPage("/ExternalLogin/Challenge", new { scheme = View.ExternalLoginScheme, returnUrl });
         }
 
+        //return Challenge(props, "Fitbit");
         return Page();
+        
     }
         
     public async Task<IActionResult> OnPost()

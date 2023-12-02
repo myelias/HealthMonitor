@@ -42,5 +42,14 @@ public static class Config
                 ClientSecrets = new [] {new Secret("NotASecret".Sha256())},
                 AllowedGrantTypes = {GrantType.ResourceOwnerPassword}
             },
+            new Client
+            {
+                ClientId = "239824",
+                ClientName = "Fitbit",
+                AllowedScopes = { "openid", "profile", "healthMonitorApp" },
+                RedirectUris = { "http://localhost:5000/signin-fitbit" },
+                ClientSecrets = new [] {new Secret("78ca013aa8147e78910d27f91328f560".Sha256())},
+                AllowedGrantTypes = {GrantType.ResourceOwnerPassword}
+            },
         };
 }
