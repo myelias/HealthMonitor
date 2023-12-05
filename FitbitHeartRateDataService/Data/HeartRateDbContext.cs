@@ -7,7 +7,7 @@ namespace FitbitHeartRateDataService.Data;
 public class HeartRateDbContext : DbContext
 {
 
-    public HeartRateDbContext(DbContextOptions options) : base(options)
+    public HeartRateDbContext(DbContextOptions options) : base(options) // constructor
     {
 
     }
