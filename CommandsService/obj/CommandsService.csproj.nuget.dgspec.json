@@ -1,34 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj": {}
+    "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj": {
+    "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\CommandsService.csproj",
-        "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\CommandsService\\obj\\",
+        "projectPath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/CommandsService.csproj",
+        "packagesPath": "/Users/martinelias/.nuget/packages/",
+        "outputPath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/martinelias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,6 +72,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

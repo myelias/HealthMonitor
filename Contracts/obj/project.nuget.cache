@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QtxCPaIvQsZsDAbTTXr+DcdLGEHHVm3AlLSy4fE0da2ND0wuIsB9rns3h5WzC6SqieTempU2/XvTBev60Mh6nw==",
+  "dgSpecHash": "1dX9+M86yEU7fssLAuuk7oYaAWV1HmbVKfwHe6P96YCDdVReBAWSK0E7FiYETkxGd8Y6dkfS5VdGCH2hwcDtgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marti\\OneDrive\\Desktop\\HealthMetricsProject\\backend\\Contracts\\Contracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/Contracts/Contracts.csproj",
+  "expectedPackageFiles": [
+    "/Users/martinelias/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
