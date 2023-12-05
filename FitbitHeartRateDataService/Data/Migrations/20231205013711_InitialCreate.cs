@@ -16,6 +16,7 @@ namespace FitbitHeartRateDataService.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    FitBitUser = table.Column<string>(type: "text", nullable: true),
                     Date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Period = table.Column<string>(type: "text", nullable: true),
                     Value = table.Column<int>(type: "integer", nullable: false)

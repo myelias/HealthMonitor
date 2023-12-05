@@ -1,6 +1,7 @@
 using Duende.IdentityServer;
 using IdentityService.Data;
 using IdentityService.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -44,7 +45,8 @@ internal static class HostingExtensions
         }
         
         );
-        builder.Services.AddAuthentication( options => {options.DefaultScheme = "Cookies"; options.RequireAuthenticatedSignIn = true;})
+        builder.Services.AddOidcStateDataFormatterCache();
+        builder.Services.AddAuthentication()
             .AddFitbit("Fitbit", options =>
             {
                 options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
@@ -55,9 +57,9 @@ internal static class HostingExtensions
                 options.ClientId = "239824";
                 options.ClientSecret = "78ca013aa8147e78910d27f91328f560";
                 //options.ReturnUrlParameter = "http://localhost:5000/signin-fitbit";
-                //options.CallbackPath = "/signin-fitbit";
+                options.CallbackPath = "/signin-fitbit";
             })
-            .AddGoogle("Google", options =>
+            .AddGoogle("Google" , options =>
             {
                 options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
                 options.SaveTokens = true;
@@ -66,6 +68,7 @@ internal static class HostingExtensions
                 // set the redirect URI to https://localhost:5001/signin-google
                 options.ClientId = "43790812615-hqef0nkuebn3fnpc0hukt7convf4bj2i.apps.googleusercontent.com";
                 options.ClientSecret = "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"; 
+                options.CallbackPath = "/signin-google";
             })
             .AddOpenIdConnect("oidc", "Demo IdentityServer", options =>
     {
@@ -99,6 +102,7 @@ internal static class HostingExtensions
         app.UseStaticFiles();
         app.UseRouting();
         app.UseIdentityServer();
+        app.UseAuthentication();
         app.UseAuthorization();
         app.MapRazorPages()
             .RequireAuthorization();

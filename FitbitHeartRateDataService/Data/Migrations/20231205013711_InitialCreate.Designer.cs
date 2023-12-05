@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace FitbitHeartRateDataService.Data.Migrations
 {
     [DbContext(typeof(HeartRateDbContext))]
-    [Migration("20231103055329_InitialCreate")]
+    [Migration("20231205013711_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -20,7 +20,7 @@ namespace FitbitHeartRateDataService.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.11")
+                .HasAnnotation("ProductVersion", "8.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -33,6 +33,9 @@ namespace FitbitHeartRateDataService.Data.Migrations
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("FitBitUser")
+                        .HasColumnType("text");
 
                     b.Property<string>("Period")
                         .HasColumnType("text");
