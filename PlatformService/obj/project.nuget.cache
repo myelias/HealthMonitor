@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7hHrs67QLSr8z0IyHnVipiBgGXNhDYEVkQ/fwOKBLmKHUviyYTyF0JlVJZUxZNmITwRKKojHlxOMHy+tuAZDwg==",
+  "dgSpecHash": "HonHFS/RZFmz2h/Chprgty3tcGpAzHE7QHjo8TwHcSK1GyFNhwtssvnqlkfy5TKMKKH6sERQoYj09eBm1S4x5g==",
   "success": true,
   "projectFilePath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/PlatformService/PlatformService.csproj",
   "expectedPackageFiles": [
-    "/Users/martinelias/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -84,5 +84,12 @@
     "/Users/martinelias/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.25/microsoft.netcore.app.host.osx-arm64.6.0.25.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/martinelias/Desktop/ProjectBackend/HealthMonitor/PlatformService/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

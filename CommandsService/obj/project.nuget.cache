@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cD+UTQ+vyyaAZpqnrqiSaPTF74HphtFyDf18857URIqSh71W9gnjRLlZhUdciqBBigkyhvim2Q4ZgYmJPMiHgA==",
+  "dgSpecHash": "voEGxvKYR0RITpXvKOLGM27/shIDCkp1XaKzKw6mEDOf9Js2VLaHOjHOkZmSZVQT9BeNE16agIqwng7DnVeumA==",
   "success": true,
   "projectFilePath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/CommandsService.csproj",
   "expectedPackageFiles": [
-    "/Users/martinelias/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.entityframeworkcore/7.0.1/microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
@@ -39,5 +39,12 @@
     "/Users/martinelias/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.25/microsoft.netcore.app.host.osx-arm64.6.0.25.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/martinelias/Desktop/ProjectBackend/HealthMonitor/CommandsService/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

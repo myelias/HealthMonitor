@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 [Table("HeartRates")]
 public class HeartRate
 {
+    public string FitBitUser {get; set;}
     public Guid Id { get; set; }
 
     public DateTime Date {get; set;}
