@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "MZ8Q1djXFSsAlN6cza+hTNs/pTo3OYOeyVuNHHxs4bXIoy/aICHQSiUpRTzth6SDbD/roVjdYn/H67jJnF8jUQ==",
+  "dgSpecHash": "eoq5Pv+SeH8ChoIh1jZNqDuGOso+xtkOHJv0YDRYD0hw7shUR4wBQJvTgzcerWvfqILks9vbyuUz/RQZ7M+DBg==",
   "success": true,
   "projectFilePath": "/Users/martinelias/Desktop/ProjectBackend/HealthMonitor/FitbitHeartRateDataService/FitbitHeartRateDataService.csproj",
   "expectedPackageFiles": [
     "/Users/martinelias/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/masstransit/8.1.1/masstransit.8.1.1.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/masstransit.abstractions/8.1.1/masstransit.abstractions.8.1.1.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/masstransit.rabbitmq/8.1.1/masstransit.rabbitmq.8.1.1.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/masstransit/8.1.3/masstransit.8.1.3.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/masstransit.abstractions/8.1.3/masstransit.abstractions.8.1.3.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/masstransit.entityframeworkcore/8.1.3/masstransit.entityframeworkcore.8.1.3.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/masstransit.rabbitmq/8.1.2/masstransit.rabbitmq.8.1.2.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.0/microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -29,10 +30,11 @@
     "/Users/martinelias/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/7.0.1/microsoft.extensions.diagnostics.healthchecks.7.0.1.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/7.0.1/microsoft.extensions.diagnostics.healthchecks.abstractions.7.0.1.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/microsoft.extensions.hosting.abstractions/7.0.0/microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/8.0.0/microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -46,7 +48,7 @@
     "/Users/martinelias/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/npgsql/8.0.0/npgsql.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.0/npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/rabbitmq.client/6.6.0/rabbitmq.client.6.6.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
@@ -55,7 +57,7 @@
     "/Users/martinelias/.nuget/packages/system.composition.hosting/6.0.0/system.composition.hosting.6.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.composition.runtime/6.0.0/system.composition.runtime.6.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.composition.typedparts/6.0.0/system.composition.typedparts.6.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/system.diagnostics.diagnosticsource/7.0.1/system.diagnostics.diagnosticsource.7.0.1.nupkg.sha512",
+    "/Users/martinelias/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
@@ -66,14 +68,7 @@
     "/Users/martinelias/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/martinelias/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/martinelias/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/Users/martinelias/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/martinelias/Desktop/ProjectBackend/HealthMonitor/FitbitHeartRateDataService/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

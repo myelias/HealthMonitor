@@ -6,7 +6,7 @@ public class HeartRate
     public string FitBitUser {get; set;}
     public Guid Id { get; set; }
 
-    public DateTime Date {get; set;}
+    public DateTime dateTime {get; set;}
 
     public string Period {get; set;}
 

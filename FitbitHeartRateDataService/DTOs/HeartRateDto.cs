@@ -5,14 +5,9 @@ public class HeartRateDto
     // Request Parameters
     public Guid Id { get; set; }
 
-    public DateTime Date {get; set;}
+    public DateTime dateTime {get; set;}
 
     public string Period {get; set;}
-
-
-    //Response Parameters
-
-    //public string DateTime { get; set; }
 
     public int Value { get; set; }
 

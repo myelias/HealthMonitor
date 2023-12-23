@@ -1,0 +1,20 @@
+[
+	{
+		"id": "326c4d6e-569a-44ca-ae2b-e8f5e5a3b11f",
+		"dateTime": "2023-10-21T01:01:01Z",
+		"period": "1d",
+		"value": 59
+	},
+	{
+		"id": "4f495190-e06b-4fb8-9b0e-746f09234de6",
+		"dateTime": "2023-10-22T01:01:01Z",
+		"period": "1d",
+		"value": 62
+	},
+	{
+		"id": "f0121ee1-1eed-4b42-b93b-c1995148e643",
+		"dateTime": "2023-10-23T01:01:01Z",
+		"period": "1d",
+		"value": 58
+	}
+]

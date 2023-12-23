@@ -1,23 +1,20 @@
 [
 	{
-		"id": "578740da-acea-4127-919b-075f4198d57f",
-		"date": "Today",
+		"id": "326c4d6e-569a-44ca-ae2b-e8f5e5a3b11f",
+		"dateTime": "2023-10-21T01:01:01Z",
 		"period": "1d",
-		"dateTime": "2023-10-22T19:04:14.480Z",
+		"value": 59
+	},
+	{
+		"id": "4f495190-e06b-4fb8-9b0e-746f09234de6",
+		"dateTime": "2023-10-22T01:01:01Z",
+		"period": "1d",
 		"value": 62
 	},
 	{
-		"id": "69250109-1d95-4fc8-a8aa-3f8d336115ca",
-		"date": "Today",
+		"id": "f0121ee1-1eed-4b42-b93b-c1995148e643",
+		"dateTime": "2023-10-23T01:01:01Z",
 		"period": "1d",
-		"dateTime": "2023-10-23T19:04:14.480Z",
 		"value": 58
-	},
-	{
-		"id": "7c040533-6bfa-491a-92f1-022dda79a992",
-		"date": "Today",
-		"period": "1d",
-		"dateTime": "2023-10-21T19:04:14.480Z",
-		"value": 59
 	}
 ]
