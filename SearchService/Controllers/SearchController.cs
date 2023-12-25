@@ -35,8 +35,8 @@ public class SearchController : ControllerBase
 
         query = searchParams.OrderBy switch
         {
-            "HeartRate" => query.Sort(x => x.Descending(a => a.dateTime)),
-            _ => query.Sort(x => x.Descending(a => a.dateTime)) // This is the "default" parameter
+            "HeartRate" => query.Sort(x => x.Descending(a => a.Value)),
+            _ => query.Sort(x => x.Descending(a => a.Value)) // This is the "default" parameter
         };
         query = searchParams.FilterBy switch
         {
