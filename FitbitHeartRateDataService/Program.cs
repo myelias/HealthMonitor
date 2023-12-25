@@ -14,8 +14,17 @@ builder.Services.AddDbContext<HeartRateDbContext>(opt =>
 });
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddMassTransit( x => {
-
+builder.Services.AddMassTransit( x => 
+{
+    x.AddEntityFrameworkOutbox<HeartRateDbContext>( o =>
+    {   
+        // Adding the Outbox essentially adds 3 new tables to our Postgres server (InboxState, OutboxMessage, OutboxState)
+        o.QueryDelay = TimeSpan.FromSeconds(10); // If the service bus is available, the message will be delivered immediately.
+        // If it's not, it will attempt to look inside the outbox every 10 seconds 
+        o.UsePostgres();
+        // enable the bus outbox
+        o.UseBusOutbox();
+}   );
     // A Transport
     x.UsingRabbitMq((context, cfg) =>
     {

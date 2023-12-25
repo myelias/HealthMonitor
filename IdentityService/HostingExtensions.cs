@@ -29,7 +29,7 @@ internal static class HostingExtensions
                 options.Events.RaiseInformationEvents = true;
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
-
+                // options.KeyManagement.KeyPath = "/home/shared/keys";
                 // see https://docs.duendesoftware.com/identityserver/v6/fundamentals/resources/
                 //options.EmitStaticAudienceClaim = true;
             })
@@ -99,6 +99,7 @@ internal static class HostingExtensions
             app.UseDeveloperExceptionPage();
         }
 
+        app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
         app.UseIdentityServer();

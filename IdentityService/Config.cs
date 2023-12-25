@@ -1,4 +1,5 @@
-﻿using Duende.IdentityServer.Models;
+﻿using System.Linq.Expressions;
+using Duende.IdentityServer.Models;
 
 namespace IdentityService;
 
@@ -44,12 +45,15 @@ public static class Config
             },
             new Client
             {
-                ClientId = "239824",
-                ClientName = "Fitbit",
+                ClientId = "HealthMonitorApp",
+                ClientName = "HealthMonitorApp",
                 AllowedScopes = { "openid", "profile", "healthMonitorApp" },
-                RedirectUris = { "https://localhost:5000/signin-fitbit" },
-                ClientSecrets = new [] {new Secret("78ca013aa8147e78910d27f91328f560".Sha256())},
-                AllowedGrantTypes = {GrantType.AuthorizationCode}
+                RedirectUris = { "http://localhost:3000/api/auth/callback/id-server" },
+                ClientSecrets = new [] {new Secret("secret".Sha256())},
+                AllowOfflineAccess = true, // Enable refresh token funcitonality
+                RequirePkce = false, // This would be set to true if using for a react native mobile app
+                AllowedGrantTypes = GrantTypes.CodeAndClientCredentials, // This allows access tokens to be sent internally from inside our network to Identity Server without browser involvement
+                AccessTokenLifetime = 3600 * 24 * 30 // This lifetime has been extended for DEVELOPMENT PURPOSES ONLY, Default is only 3600 (1 hour)
             },
         };
 }
