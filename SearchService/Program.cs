@@ -21,7 +21,11 @@ builder.Services.AddMassTransit( x => {
     x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("search", false)); // false will not include "Contracts" to the formatted name
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.ConfigureEndpoints(context);
+        cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host =>
+        {
+            host.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
+            host.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest"));
+        });
 
         cfg.ReceiveEndpoint("search-heart-rates-created-2", e =>
         {
@@ -29,6 +33,8 @@ builder.Services.AddMassTransit( x => {
             e.ConfigureConsumer<HeartRatesCreatedConsumer>(context); // Will only apply this consumer
             e.ConfigureConsumer<HeartRateDeletedConsumer>(context);
         });
+
+        cfg.ConfigureEndpoints(context);
     });
 });
 
