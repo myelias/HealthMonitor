@@ -72,7 +72,7 @@ public class HeartRateController : ControllerBase
         return _mapper.Map<HeartRateDto>(HeartRate);
     }
 
-    //[Authorize]
+    [Authorize]
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteHeartRate(Guid id)
     {
